@@ -40,7 +40,8 @@ pipeline {
           script {
             withForQualityGate abortPipeline: true
           }
-      }     
+      } 
+      }    
       }
       
 
